@@ -25,7 +25,6 @@ very powerful tool to DDoS attack specific targets
 * `git clone https://github.com/Rickionee/rick-ddoser`
 * `cd rick-ddoser`
 * `pip install -r requirements.txt`
-* `rm -r requirements.txt`
 
 ## USAGE :
 you have four arguments:
