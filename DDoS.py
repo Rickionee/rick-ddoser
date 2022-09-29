@@ -20,7 +20,7 @@ def banner():
  | | \ \| | (__|   <  \__ \ | (_| | (_| | (_) \__ \ 
  |_|  \_\_|\___|_|\_\ |___/  \__,_|\__,_|\___/|___/
 """, 'green'))
-    print(colored("Rick's Ddosser (2022)\n\n", 'yellow'))
+    print(colored("Rick's DDoSer (2022)\n\n", 'yellow'))
 
 def parse_args():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
