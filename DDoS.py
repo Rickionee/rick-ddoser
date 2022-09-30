@@ -10,7 +10,7 @@ from termcolor import colored
 def banner():
     try:
         os.system("clear")
-    except:
+    except Exception as e:
         os.system("cls")
     print(colored("""
   ____  _      _    _       ____  ____       ____  
