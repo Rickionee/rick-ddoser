@@ -30,7 +30,7 @@ def GetRelDir():
 if OS == "termux":
     GetRelDir()
     os.system(f"cd {rdir} && rm -rf rick-ddoser")
-    os.system("cd {rdir} && git clone https://github.com/Rickionee/rick-ddoser && clear")
+    os.system(f"cd {rdir} && git clone https://github.com/Rickionee/rick-ddoser && clear")
     print(colored("done...", 'green'))
     time.sleep(0.7)
     os.system(f"cd {rdir}/rick-ddoser")
