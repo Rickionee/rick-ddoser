@@ -33,3 +33,10 @@ if OS == "termux":
     os.system(f"cd {rdir} && git clone https://github.com/Rickionee/rick-ddoser && clear")
     print(colored("done...", 'green'))
     time.sleep(0.7)
+
+if OS == "windows":
+    GetRelDir()
+    os.system(f"cd {rdir} && rmdir /Q /S rick-ddoser")
+    os.system(f"cd {rdir} && git clone https://github.com/Rickionee/rick-ddoser && cls")
+    print(colored("done...", 'green'))
+    time.sleep(0.7)
