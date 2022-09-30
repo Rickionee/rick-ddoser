@@ -22,6 +22,7 @@ very powerful tool to DDoS attack specific targets
 
 ## INSTALLATION :
 
+* go to the dir you want to install the script using `cd <path>`
 * `git clone https://github.com/Rickionee/rick-ddoser`
 * `cd rick-ddoser`
 * `pip install -r requirements.txt`
