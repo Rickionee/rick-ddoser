@@ -40,3 +40,10 @@ if OS == "windows":
     os.system(f"cd {rdir} && git clone https://github.com/Rickionee/rick-ddoser && cls")
     print(colored("done...", 'green'))
     time.sleep(0.7)
+
+if OS == "linux":
+    GetRelDir()
+    os.system(f"cd {rdir} && rm -rf rick-ddoser")
+    os.system(f"cd {rdir} && git clone https://github.com/Rickionee/rick-ddoser && clear")
+    print(colored("done...", 'green'))
+    time.sleep(0.7)
