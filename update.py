@@ -17,7 +17,7 @@ def CheckOs():
     else:
         print("os not identified, please make sure your platform is supported and tested.")
         quit()
-
+###################################################
 CheckOs()
 
 def GetRelDir():
