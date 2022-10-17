@@ -83,7 +83,7 @@ def main():
     target = parse_args().target
     threads = int(parse_args().threads)
     sleep = int(parse_args().sleep)
-    print(colored(f"sending the attack to: {target}", 'green'))
+    print(colored(f"sending the attack to: {target}\n", 'green'))
     
     for thread in range (1, threads):
         user_agent = user_agents[randrange(len(user_agents) - 1)]
